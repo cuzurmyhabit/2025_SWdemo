@@ -8,7 +8,7 @@ pingpong.wait_until_full_connect()
 
 cube_ID = 1
 
-pingpong.receive_sensor_data(cube_ID=cube_ID, method="periodic", period=0.5)
+pingpong.receive_sensor_data(cube_ID=cube_ID, method="periodic", period = 0.5)
 
 try:
     while True:
